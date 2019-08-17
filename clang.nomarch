@@ -1,0 +1,7 @@
+ "/usr/lib/llvm/8/bin/clang-8" "-cc1" "-triple" "x86_64-pc-linux-gnu" "-E" "-disable-free" "-disable-llvm-verifier" "-discard-value-names"
+ "-main-file-name" "-" "-mrelocation-model" "static" "-mthread-model" "posix" "-mdisable-fp-elim" "-fmath-errno" "-masm-verbose" "-mconstructor-aliases"
+ "-munwind-tables" "-fuse-init-array" "-target-cpu" "x86-64" "-dwarf-column-info" "-debugger-tuning=gdb" "-resource-dir"
+ "/usr/lib/llvm/8/bin/../../../../lib/clang/8.0.1" "-internal-isystem" "/usr/local/include" "-internal-isystem"
+ "/usr/lib/llvm/8/bin/../../../../lib/clang/8.0.1/include" "-internal-externc-isystem" "/include" "-internal-externc-isystem"
+ "/usr/include" "-fdebug-compilation-dir" "/root" "-ferror-limit" "19" "-fmessage-length" "0" "-fobjc-runtime=gcc" "-fdiagnostics-show-option" "-o" "-"
+ "-x" "c" "-"
