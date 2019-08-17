@@ -1,0 +1,5 @@
+cross-aarch64-gentoo-linux-uclibc/binutils arm64 ~arm64 -amd64 -~amd64
+cross-aarch64-gentoo-linux-uclibc/gcc arm64 ~arm64 -amd64 -~amd64
+cross-aarch64-gentoo-linux-uclibc/linux-headers arm64 ~arm64 -amd64 -~amd64
+cross-aarch64-gentoo-linux-uclibc/uclibc-ng arm64 ~arm64 -amd64 -~amd64
+cross-aarch64-gentoo-linux-uclibc/gdb arm64 ~arm64 -amd64 -~amd64

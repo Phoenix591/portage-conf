@@ -1,0 +1,83 @@
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25,-test]
+# required by dev-lang/ruby-2.6.2::gentoo[rdoc]
+# required by dev-ruby/minitest-5.11.3::gentoo[ruby_targets_ruby26]
+>=dev-ruby/did_you_mean-1.2.1:2.5 ruby_targets_ruby25
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25,-test]
+# required by dev-lang/ruby-2.6.2::gentoo[rdoc]
+# required by dev-ruby/net-telnet-0.2.0::gentoo[ruby_targets_ruby26]
+>=dev-ruby/minitest-5.11.3 ruby_targets_ruby25
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25,-test]
+# required by dev-lang/ruby-2.6.2::gentoo[rdoc]
+# required by dev-ruby/minitest-5.11.3::gentoo[ruby_targets_ruby26]
+>=dev-ruby/net-telnet-0.2.0 ruby_targets_ruby25
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25,-test]
+# required by dev-lang/ruby-2.6.2::gentoo[rdoc]
+# required by dev-ruby/minitest-5.11.3::gentoo[ruby_targets_ruby26]
+>=dev-ruby/power_assert-1.1.4 ruby_targets_ruby25
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25,-test]
+# required by dev-lang/ruby-2.6.2::gentoo[rdoc]
+# required by dev-ruby/minitest-5.11.3::gentoo[ruby_targets_ruby26]
+>=dev-ruby/rake-12.3.2 ruby_targets_ruby25
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25,-test]
+# required by dev-lang/ruby-2.6.2::gentoo[rdoc]
+# required by dev-ruby/minitest-5.11.3::gentoo[ruby_targets_ruby26]
+>=dev-ruby/test-unit-3.3.0 ruby_targets_ruby25
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25,-test]
+# required by dev-lang/ruby-2.6.2::gentoo[rdoc]
+# required by dev-ruby/minitest-5.11.3::gentoo[ruby_targets_ruby26]
+>=dev-ruby/xmlrpc-0.3.0 ruby_targets_ruby25
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25,-test]
+# required by dev-lang/ruby-2.6.2::gentoo[rdoc]
+# required by dev-ruby/minitest-5.11.3::gentoo[ruby_targets_ruby26]
+>=dev-ruby/json-2.2.0 ruby_targets_ruby25
+# required by dev-lang/ruby-2.5.5::gentoo[rdoc]
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby25,-test]
+>=dev-ruby/rdoc-6.1.1 ruby_targets_ruby25
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo[rdoc]
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby25,-test]
+>=dev-ruby/kpeg-1.1.0-r1 ruby_targets_ruby25
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo[rdoc]
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-ruby/kpeg-1.1.0-r1::gentoo[ruby_targets_ruby25,-test]
+>=dev-ruby/racc-1.4.14 ruby_targets_ruby25
+# required by dev-ruby/racc-1.4.14::gentoo[ruby_targets_ruby25,-test]
+# required by dev-ruby/rdoc-6.1.1::gentoo[ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo[rdoc]
+# required by dev-ruby/rubygems-3.0.3::gentoo[ruby_targets_ruby25]
+>=virtual/rubygems-15 ruby_targets_ruby25
+# required by virtual/rubygems-15::gentoo[ruby_targets_ruby25]
+# required by dev-lang/ruby-2.5.5::gentoo
+# required by dev-ruby/did_you_mean-1.2.1::gentoo[ruby_targets_ruby25]
+>=dev-ruby/rubygems-3.0.3 ruby_targets_ruby25
+

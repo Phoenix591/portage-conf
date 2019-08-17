@@ -1,0 +1,11 @@
+--- linux-4.20.6-gentoo/Makefile	2019-02-03 14:34:45.159287381 -0600
++++ linux-4.20.6-gentoo/Makefile.new	2019-02-03 14:36:36.199030898 -0600
+@@ -375,7 +375,7 @@
+ 
+ # Make variables (CC, etc...)
+ AS		= $(CROSS_COMPILE)as
+-LD		= $(CROSS_COMPILE)ld
++LD		= $(CROSS_COMPILE)ld.bfd
+ CC		= $(CROSS_COMPILE)gcc
+ CPP		= $(CC) -E
+ AR		= $(CROSS_COMPILE)ar

@@ -1,0 +1,2 @@
+CFLAGS="${CFLAGS} -L/usr/lib64"
+CXXFLAGS="${CXXFLAGS} -L/usr/lib64"

@@ -1,0 +1,26 @@
+diff --git a/libindicator/Makefile.am b/libindicator/Makefile.am
+index ef6c6c7..36bbeb0 100644
+--- a/libindicator/Makefile.am
++++ b/libindicator/Makefile.am
+@@ -57,7 +57,7 @@ libindicator_la_CFLAGS = \
+ 	$(LIBINDICATOR_CFLAGS) \
+ 	$(COVERAGE_CFLAGS) \
+ 	-DG_LOG_DOMAIN=\"libindicator\" \
+-	-Wall -Werror
++	-Wall -Werror -Wno-deprecated-declarations
+ 
+ libindicator_la_LIBADD = \
+ 	$(LIBINDICATOR_LIBS)
+diff --git a/libindicator/Makefile.in b/libindicator/Makefile.in
+index b22c62c..a192f54 100644
+--- a/libindicator/Makefile.in
++++ b/libindicator/Makefile.in
+@@ -380,7 +380,7 @@ libindicator_la_CFLAGS = \
+ 	$(LIBINDICATOR_CFLAGS) \
+ 	$(COVERAGE_CFLAGS) \
+ 	-DG_LOG_DOMAIN=\"libindicator\" \
+-	-Wall -Werror
++	-Wall -Werror -Wno-deprecated-declarations
+ 
+ libindicator_la_LIBADD = \
+ 	$(LIBINDICATOR_LIBS)

@@ -1,0 +1,10 @@
+www-client/chromium custom-cflags hangouts jumbo-build system-ffmpeg -system-icu -system-libvpx -suid widevine
+#The following USE changes are necessary to proceed:
+# (see "package.use" in the portage(5) man page for more details)
+# required by www-client/chromium-72.0.3626.28-r1::gentoo
+# required by chromium (argument)
+>=media-libs/harfbuzz-2.3.0-r1 icu
+# required by www-client/chromium-72.0.3626.28-r1::gentoo
+# required by chromium (argument)
+net-libs/nodejs inspector icu
+

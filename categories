@@ -1,0 +1,10 @@
+cross-aarch64-unknown-linux-gnu
+cross-aarch64-linux-gnu
+cross-x86_64-pc-linux-musl
+cross-x86_64-pc-linux-ulibc
+cross-x86_64-pc-linux-uclibc
+cross-x86_64-unknown-linux-uclibc
+cross-x86_64-linux-musl
+cross-x86_64-w64-mingw32
+cross-aarch64-gentoo-linux-uclibc
+cross-aarch64-gentoo-linux-musl

@@ -1,0 +1,17 @@
+app-emulation/qemu gnutls lzo ssh usbredir usb static-user -spice smartcard
+
+
+#The following USE changes are necessary to proceed:
+# (see "package.use" in the portage(5) man page for more details)
+# required by app-emulation/qemu-3.1.0::gentoo[static-user]
+# required by @selected
+# required by @world (argument)
+>=dev-libs/glib-2.58.3 static-libs
+# required by app-emulation/qemu-3.1.0::gentoo[static-user]
+# required by @selected
+# required by @world (argument)
+>=sys-libs/zlib-1.2.11-r2 static-libs
+# required by app-emulation/qemu-3.1.0::gentoo[static-user,xattr]
+# required by @selected
+# required by @world (argument)
+>=sys-apps/attr-2.4.48-r3 static-libs

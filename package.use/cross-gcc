@@ -1,0 +1,1 @@
+cross-aarch64-unknown-linux-gnu/gcc -* cxx fortran graphite multilib nls nptl openmp pch pgo pie sanitize ssp vtv

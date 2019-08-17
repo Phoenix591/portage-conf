@@ -1,0 +1,5 @@
+cross-aarch64-gentoo-linux-uclibc/binutils cross-aarch64-gentoo-linux-uclibc/binutils.conf
+cross-aarch64-gentoo-linux-uclibc/gcc cross-aarch64-gentoo-linux-uclibc/gcc.conf
+cross-aarch64-gentoo-linux-uclibc/linux-headers cross-aarch64-gentoo-linux-uclibc/linux-headers.conf
+cross-aarch64-gentoo-linux-uclibc/uclibc-ng cross-aarch64-gentoo-linux-uclibc/uclibc-ng.conf
+cross-aarch64-gentoo-linux-uclibc/gdb cross-aarch64-gentoo-linux-uclibc/gdb.conf

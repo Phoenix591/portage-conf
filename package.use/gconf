@@ -1,0 +1,3 @@
+gnome-base/gconf python_targets_python2_7
+#(dependency required by "games-util/steam-client-meta-0-r20180201::steam-overlay[-steamruntime]" [installed])
+#(dependency required by "games-util/steam-launcher-1.0.0.56::steam-overlay[-steamruntime]" [installed])

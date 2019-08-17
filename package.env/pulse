@@ -1,0 +1,4 @@
+media-sound/pulseaudio O2 lto-fallback.conf
+media-libs/alsa-lib O2
+media-plugins/alsa-plugins O2
+

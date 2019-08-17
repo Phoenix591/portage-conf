@@ -1,0 +1,6 @@
+dev-java/javatoolkit python_targets_python2_7
+
+
+#(dependency required by "dev-java/glassfish-interceptor-api-3.1::gentoo" [installed])
+#(dependency required by "java-virtuals/interceptor-api-0::gentoo" [installed])
+#(dependency required by "dev-java/maven-bin-3.6.0::gentoo )

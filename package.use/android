@@ -1,0 +1,10 @@
+dev-util/android-studio custom-jdk
+app-emulation/libvirt lvm virt-network virtualbox lxc parted
+# required by app-emulation/libvirt-5.5.0-r1::gentoo[virt-network]
+# required by libvirt (argument)
+>=net-dns/dnsmasq-2.80-r1 script
+
+# required by app-emulation/libvirt-5.5.0-r1::gentoo[parted]
+# required by libvirt (argument)
+>=sys-block/parted-3.2_p25 device-mapper
+

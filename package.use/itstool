@@ -1,0 +1,9 @@
+dev-util/itstool python_targets_python2_7
+
+#(dependency required by "dev-util/gtk-doc-1.25-r1::gentoo" [installed])
+#(dependency required by "app-misc/geoclue-2.4.13::gentoo" [installed])
+#(dependency required by "dev-qt/qtpositioning-5.11.3::gentoo[geoclue]" [installed])
+#(dependency required by "dev-qt/qtwebengine-5.11.3::gentoo[geolocation]" [installed])
+#(dependency required by "kde-apps/ktp-text-ui-18.12.1::gentoo" [installed])
+#(dependency required by "kde-apps/plasma-telepathy-meta-18.12.1::gentoo" [installed])
+#(dependency required by "kde-apps/kdenetwork-meta-18.12.1::gentoo[telepathy]"

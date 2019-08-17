@@ -1,0 +1,9 @@
+dev-cpp/tbb cuda.conf
+sys-libs/libomp cuda.conf
+sys-apps/hwloc cuda.conf
+dev-util/nvidia-cuda-toolkit cuda.conf
+media-libs/opencv cuda.conf no-ccache
+media-plugins/frei0r-plugins cuda.conf
+media-libs/mlt cuda.conf
+kde-apps/kdenlive cuda.conf
+sci-libs/tensorflow cuda.conf

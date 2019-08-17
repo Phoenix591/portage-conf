@@ -1,0 +1,7 @@
+=sys-devel/autoconf-archive-2019.01.06
+*/*::rasdark
+*/*::zyrenth
+*/*::vortex
+*/*::mv
+=sys-fs/squashfs-tools-4.3.1_alpha20180612
+>=x11-libs/libva-2.0.0:0

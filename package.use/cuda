@@ -1,0 +1,2 @@
+sys-libs/libomp cuda hwloc offload ompt
+dev-util/nvidia-cuda-toolkit profiler

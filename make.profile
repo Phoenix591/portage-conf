@@ -1,0 +1,1 @@
+../../var/db/repos/local/profiles/hard-plasma-gnome

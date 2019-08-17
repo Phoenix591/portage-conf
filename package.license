@@ -1,0 +1,27 @@
+www-client/google-chrome* google-chrome
+www-plugins/chrome-binary-plugins google-chrome
+# required by media-sound/pulseaudio-12.2::gentoo[bluetooth,bluetooth-extra-codecs]
+# required by pulseaudio (argument)
+media-libs/fdk-aac FraunhoferFDK
+
+x11-drivers/nvidia-drivers *
+sci-mathematics/gimps GIMPS
+app-emulation/* PUEL
+sys-firmware/intel-microcode intel-ucode
+
+sys-kernel/linux-firmware @BINARY-REDISTRIBUTABLE
+app-accessibility/speech-tools FESTIVAL
+app-arch/unrar unRAR
+games-util/steam-launcher ValveSteamLicense
+media-fonts/steamfonts MSttfEULA
+games-util/navigraph-fms-data-manager *
+net-im/slack-bin *
+dev-util/nvidia-cuda-toolkit NVIDIA-CUDA
+
+games-emulation/snes9x Snes9x
+# required by dev-java/oracle-jre-bin (argument)
+>=dev-java/oracle-jre-bin-1.8.0.202 Oracle-BCLA-JavaSE
+>=dev-libs/cudnn-7.5.0.56 NVIDIA-cuDNN
+>=net-im/discord-bin-0.0.9 all-rights-reserved
+=sys-firmware/b43-firmware-5.100.138 Broadcom
+

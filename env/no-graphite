@@ -1,0 +1,3 @@
+CFLAGS="-march=native -O3 -pipe -falign-functions=32 -fno-semantic-interposition -fipa-pta -fuse-linker-plugin"
+CXXFLAGS="${CFLAGS}"
+LDFLAGS="-Wl,-O1 -Wl,--as-needed -Wl,--hash-style=gnu"

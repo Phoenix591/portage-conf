@@ -1,0 +1,20 @@
+# required by sci-libs/scipy-1.1.0::gentoo
+# required by net-wireless/gnuradio-3.7.13.4-r2::gentoo[filter]
+# required by net-wireless/gr-osmosdr-0.1.4_p20180626-r2::gentoo
+# required by net-wireless/gqrx-2.11.5-r1::gentoo
+# required by gqrx (argument)
+>=dev-python/numpy-1.15.4 lapack
+
+net-wireless/gnuradio vocoder noaa log dtv doc atsc channels pager zeromq fcd fec grc trellis performance-counters wavelet
+net-wireless/gnuradio  python_targets_python2_7
+net-wireless/gr-osmosdr python_targets_python2_7
+dev-python/cheetah python_targets_python2_7
+# required by dev-python/sqlalchemy-1.2.9::gentoo[python_targets_python3_6]
+# required by dev-python/sphinxcontrib-websupport-1.1.0::gentoo
+# required by dev-python/sphinx-1.7.5-r1::gentoo[-test]
+# required by net-wireless/gnuradio-3.7.13.4-r2::gentoo[doc]
+# required by net-wireless/gr-osmosdr-0.1.4_p20180626-r2::gentoo
+# required by net-wireless/gqrx-2.11.5-r1::gentoo
+# required by gqrx (argument)
+>=dev-lang/python-3.6.6:3.6 sqlite
+

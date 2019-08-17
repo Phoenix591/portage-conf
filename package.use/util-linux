@@ -1,0 +1,5 @@
+sys-apps/util-linux static-libs
+# required by dev-lang/spidermonkey-52.9.1_pre1::gentoo
+# required by sys-auth/polkit-0.115-r2::gentoo
+# required by gnome-extra/polkit-gnome-0.105-r1::gentoo
+>=dev-lang/python-2.7.15:2.7 sqlite

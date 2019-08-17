@@ -1,0 +1,2 @@
+#needed for 124 atc
+#net-misc/curl curl_ssl_gnutls -openssl

@@ -1,0 +1,21 @@
+sys-apps/dbus user-session
+net-wireless/bluez user-session
+
+kde-*/* pam sddm wallpapers legacy-systray kdesu handbook
+#sys-apps/dbus user-session
+#net-wireless/bluez user-session
+#dev-qt/qtwebengine -pulseaudio
+kde-apps/kget mms bittorrent gpg
+kde-plasma/libksysguard webengine
+kde-apps/kdepim-addons importwizard markdown
+media-libs/libmediaart -gtk
+
+# required by kde-apps/ktp-call-ui-18.12.3::gentoo
+# required by kde-apps/plasma-telepathy-meta-18.12.3::gentoo[gstreamer]
+# required by kde-apps/kdenetwork-meta-18.12.3::gentoo[telepathy]
+# required by @selected
+# required by @world (argument)
+>=net-libs/telepathy-qt-0.9.7-r1 farstream
+
+kde-apps/konqueror tidy
+kde-misc/kdeconnect app bluetooth mousepad

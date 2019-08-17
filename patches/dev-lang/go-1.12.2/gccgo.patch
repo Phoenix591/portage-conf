@@ -1,0 +1,91 @@
+From bead358611e36fe0991c171a8a4a4924f4f0e584 Mon Sep 17 00:00:00 2001
+From: Than McIntosh <thanm@google.com>
+Date: Thu, 04 Apr 2019 11:01:22 -0400
+Subject: [PATCH] math/bits: add gccgo-friendly code for compiler bootstrap
+
+When building as part of the bootstrap process, avoid
+use of "go:linkname" applied to variables, since this
+feature is ill-defined/unsupported for gccgo.
+
+Updates #30771.
+
+Change-Id: Id44d01b5c98d292702e5075674117518cb59e2d0
+Reviewed-on: https://go-review.googlesource.com/c/go/+/170737
+Reviewed-by: Ian Lance Taylor <iant@golang.org>
+Reviewed-by: Cherry Zhang <cherryyz@google.com>
+Run-TryBot: Ian Lance Taylor <iant@golang.org>
+TryBot-Result: Gobot Gobot <gobot@golang.org>
+---
+
+diff --git a/src/math/bits/bits.go b/src/math/bits/bits.go
+index 6f367dc..24d910c 100644
+--- a/src/math/bits/bits.go
++++ b/src/math/bits/bits.go
+@@ -8,8 +8,6 @@
+ // functions for the predeclared unsigned integer types.
+ package bits
+ 
+-import _ "unsafe" // for go:linkname
+-
+ const uintSize = 32 << (^uint(0) >> 32 & 1) // 32 or 64
+ 
+ // UintSize is the size of a uint in bits.
+@@ -524,9 +522,3 @@
+ 
+ 	return q1*two32 + q0, (un21*two32 + un0 - q0*y) >> s
+ }
+-
+-//go:linkname overflowError runtime.overflowError
+-var overflowError error
+-
+-//go:linkname divideError runtime.divideError
+-var divideError error
+diff --git a/src/math/bits/bits_errors.go b/src/math/bits/bits_errors.go
+new file mode 100644
+index 0000000..192b4be
+--- /dev/null
++++ b/src/math/bits/bits_errors.go
+@@ -0,0 +1,15 @@
++// Copyright 2019 The Go Authors. All rights reserved.
++// Use of this source code is governed by a BSD-style
++// license that can be found in the LICENSE file.
++
++// +build !compiler_bootstrap
++
++package bits
++
++import _ "unsafe"
++
++//go:linkname overflowError runtime.overflowError
++var overflowError error
++
++//go:linkname divideError runtime.divideError
++var divideError error
+diff --git a/src/math/bits/bits_errors_bootstrap.go b/src/math/bits/bits_errors_bootstrap.go
+new file mode 100644
+index 0000000..5df5738
+--- /dev/null
++++ b/src/math/bits/bits_errors_bootstrap.go
+@@ -0,0 +1,22 @@
++// Copyright 2019 The Go Authors. All rights reserved.
++// Use of this source code is governed by a BSD-style
++// license that can be found in the LICENSE file.
++
++// +build compiler_bootstrap
++
++// This version used only for bootstrap (on this path we want
++// to avoid use of go:linkname as applied to variables).
++
++package bits
++
++type errorString string
++
++func (e errorString) RuntimeError() {}
++
++func (e errorString) Error() string {
++	return "runtime error: " + string(e)
++}
++
++var overflowError = error(errorString("integer overflow"))
++
++var divideError = error(errorString("integer divide by zero"))

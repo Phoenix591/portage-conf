@@ -1,0 +1,7 @@
+# required by net-wireless/gnuradio-3.7.13.5::gentoo
+# required by net-wireless/gr-osmosdr-0.1.4_p20180626-r2::gentoo
+# required by net-wireless/gqrx-2.11.5-r1::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-libs/boost-1.65.0 python
+

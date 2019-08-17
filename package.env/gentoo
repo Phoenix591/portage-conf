@@ -1,0 +1,14 @@
+www-client/firefox clang.conf
+www-client/chromium clang-chrome.conf
+#for chrome
+dev-libs/re2 clang.conf
+
+x11-drivers/nvidia-drivers nvidia.conf
+sys-libs/ncurses:5 clang-no-lto.conf
+net-mail/mailutils mailutils.conf
+media-libs/x264 lto-fallback.conf
+#sys-apps/bubblewrap selinux-workaround
+#gnome-base/nautilus lto-fallback.conf
+app-misc/tracker lto-fallback.conf
+dev-libs/protobuf bfd.conf
+dev-python/python-systemd lto-fallback.conf

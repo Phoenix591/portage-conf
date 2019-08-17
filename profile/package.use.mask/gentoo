@@ -1,0 +1,6 @@
+www-client/firefox -gmp-autoupdate
+www-client/chromium -system-ffmpeg -system-icu
+#nvidia binary drivers don't like wayland
+x11-base/xorg-server wayland
+dev-java/openjdk-bin:8 -gentoo-vm
+cross-x86_64-w64-mingw32/gcc fortran vtv sanitize pie hardened -libssp

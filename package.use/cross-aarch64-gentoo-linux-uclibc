@@ -1,0 +1,3 @@
+cross-aarch64-gentoo-linux-uclibc/binutils -multilib
+cross-aarch64-gentoo-linux-uclibc/linux-headers -selinux headers-only -multilib
+cross-aarch64-gentoo-linux-uclibc/uclibc-ng -selinux headers-only -multilib

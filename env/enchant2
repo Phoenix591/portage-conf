@@ -1,0 +1,2 @@
+GTK_SPELL3_CFLAGS="-pthread -I/usr/include/enchant-2 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include"
+GTK_SPELL3_LIBS="-lenchant-2"

@@ -1,0 +1,4 @@
+#for libvirt
+sys-apps/systemd cgroup-hybrid
+#for personal experiment
+sys-apps/systemd dns-over-tls

@@ -1,0 +1,2 @@
+CFLAGS="-march=native -O2 -pipe -falign-functions=32 -fno-semantic-interposition -fgraphite-identity -floop-nest-optimize -flto -fuse-linker-plugin"
+CXXFLAGS="${CFLAGS}"

@@ -1,0 +1,3 @@
+>=sys-devel/gcc-8.3.0 objc++ graphite pgo pie fortran
+<sys-devel/gcc-8.0.0 -fortran -go -objc++ graphite -pgo -sanitize
+*/gcc graphite

@@ -1,0 +1,4 @@
+cross-x86_64-pc-linux-ulibc/binutils cross-x86_64-pc-linux-ulibc/binutils.conf
+cross-x86_64-pc-linux-ulibc/gcc cross-x86_64-pc-linux-ulibc/gcc.conf
+cross-x86_64-pc-linux-ulibc/linux-headers cross-x86_64-pc-linux-ulibc/linux-headers.conf
+cross-x86_64-pc-linux-ulibc/gdb cross-x86_64-pc-linux-ulibc/gdb.conf

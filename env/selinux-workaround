@@ -1,0 +1,5 @@
+# the configure script for sys-apps/bubblewrap doesn't like pkgconfig returning null cflags needed, recheck 
+# pkg-config  --print-errors --cflags "libselinux" periodically to see if this is still needed
+
+SELINUX_CFLAGS=" "
+SELINUX_LIBS="-lselinux"

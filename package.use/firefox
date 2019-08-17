@@ -1,0 +1,15 @@
+www-client/firefox custom-cflags pgo clang geckodriver hardened hwaccel system-icu system-jpeg system-libevent system-harfbuzz wifi
+# required by www-client/firefox-64.0.2::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.7.0 postproc
+
+
+# required by www-client/firefox-65.0::gentoo[system-sqlite]
+# required by @selected
+# required by @world (argument)
+>=dev-db/sqlite-3.26.0 secure-delete
+# required by www-client/firefox-65.0::gentoo[pgo]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-1.20.3 xvfb
+

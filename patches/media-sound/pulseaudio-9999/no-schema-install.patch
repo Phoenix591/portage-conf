@@ -1,0 +1,11 @@
+--- a/src/modules/gsettings/meson.build	2019-05-29 07:03:08.479419587 -0500
++++ b/src/modules/gsettings/meson.build	2019-05-29 07:04:04.861146715 -0500
+@@ -28,7 +28,7 @@
+   install_dir : join_paths(datadir, 'glib-2.0', 'schemas')
+ )
+ 
+-meson.add_install_script('post-install.sh', datadir)
++#meson.add_install_script('post-install.sh', datadir)
+ 
+ # Conversion from GConf to GSettings
+ 

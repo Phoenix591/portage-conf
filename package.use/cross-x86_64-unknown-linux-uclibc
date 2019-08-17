@@ -1,0 +1,3 @@
+cross-x86_64-unknown-linux-uclibc/binutils -multilib
+cross-x86_64-unknown-linux-uclibc/linux-headers -selinux headers-only -multilib
+cross-x86_64-unknown-linux-uclibc/uclibc-ng -selinux headers-only -multilib

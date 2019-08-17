@@ -1,0 +1,9 @@
+dev-util/gtk-doc  python_targets_python2_7
+
+#(dependency required by "app-misc/geoclue-2.4.13::gentoo" [installed])
+#(dependency required by "dev-qt/qtpositioning-5.11.3::gentoo[geoclue]" [installed])
+#(dependency required by "dev-qt/qtwebengine-5.11.3::gentoo[geolocation]" [installed])
+#(dependency required by "www-client/falkon-3.0.1-r1::gentoo" [installed])
+#(dependency required by "kde-apps/kdecore-meta-18.12.1::gentoo[webengine]
+dev-libs/libxml2 python_targets_python2_7
+

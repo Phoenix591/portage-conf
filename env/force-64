@@ -1,0 +1,2 @@
+CFLAGS="-march=native -O2 -pipe -m64"
+CXXFLAGS="-march=native -O2 -pipe -m64"

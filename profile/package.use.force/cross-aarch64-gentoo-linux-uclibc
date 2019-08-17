@@ -1,0 +1,5 @@
+cross-aarch64-gentoo-linux-uclibc/binutils -multilib
+cross-aarch64-gentoo-linux-uclibc/gcc -multilib
+cross-aarch64-gentoo-linux-uclibc/linux-headers -multilib
+cross-aarch64-gentoo-linux-uclibc/uclibc-ng -multilib
+cross-aarch64-gentoo-linux-uclibc/gdb -multilib

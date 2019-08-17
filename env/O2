@@ -1,0 +1,2 @@
+CFLAGS="-march=native -O3 -pipe -falign-functions=32 -fno-semantic-interposition -fgraphite-identity -floop-nest-optimize -fipa-pta -flto=6 -fuse-linker-plugin"
+CXXFLAGS="-march=native -O3 -pipe -falign-functions=32 -fno-semantic-interposition -fgraphite-identity -floop-nest-optimize -fipa-pta -flto=6 -fuse-linker-plugin"

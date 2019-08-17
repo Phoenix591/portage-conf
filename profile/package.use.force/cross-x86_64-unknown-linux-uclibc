@@ -1,0 +1,5 @@
+cross-x86_64-unknown-linux-uclibc/binutils -multilib
+cross-x86_64-unknown-linux-uclibc/gcc -multilib
+cross-x86_64-unknown-linux-uclibc/linux-headers -multilib
+cross-x86_64-unknown-linux-uclibc/uclibc-ng -multilib
+cross-x86_64-unknown-linux-uclibc/gdb -multilib

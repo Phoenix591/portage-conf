@@ -1,0 +1,5 @@
+CFLAGS="-march=native -Og -pipe -falign-functions=32 -fno-semantic-interposition -fgraphite-identity -floop-nest-optimize -fuse-linker-plugin"
+CXXFLAGS="${CFLAGS}"
+CFLAGS="${CFLAGS} -ggdb"
+CXXFLAGS="${CXXFLAGS} -ggdb"
+FEATURES="${FEATURES} nostrip"

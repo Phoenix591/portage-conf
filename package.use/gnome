@@ -1,0 +1,53 @@
+dev-libs/libpcre static-libs
+gnome-base/gvfs google fuse archive gphoto2 mtp
+
+# required by media-sound/gnome-music-3.30.2::gentoo
+# required by gnome-base/gnome-extra-apps-3.30.2::gentoo[tracker]
+# required by gnome-base/gnome-3.30.2::gentoo[extras]
+# required by gnome-base/gnome (argument)
+media-plugins/grilo-plugins tracker
+# required by gnome-base/gnome-keyring-3.28.2::gentoo
+# required by gnome-base/gnome-core-apps-3.30.2::gentoo
+# required by gnome-base/gnome-3.30.2::gentoo
+# required by gnome-base/gnome (argument)
+app-crypt/pinentry gnome-keyring
+# required by net-misc/gnome-online-miners-3.30.0::gentoo
+# required by media-gfx/gnome-photos-3.30.1::gentoo
+# required by gnome-base/gnome-extra-apps-3.30.2::gentoo[tracker]
+# required by gnome-base/gnome-3.30.2::gentoo[extras]
+# required by gnome-base/gnome (argument)
+dev-libs/libgdata gnome-online-accounts
+# required by media-gfx/gnome-photos-3.30.1::gentoo
+# required by gnome-base/gnome-extra-apps-3.30.2::gentoo[tracker]
+# required by gnome-base/gnome-3.30.2::gentoo[extras]
+# required by gnome-base/gnome (argument)
+media-libs/gegl jpeg2k raw
+# required by media-gfx/shotwell-0.30.2::gentoo
+# required by gnome-base/gnome-extra-apps-3.30.2::gentoo[shotwell]
+# required by gnome-base/gnome-3.30.2::gentoo[extras]
+# required by gnome-base/gnome (argument)
+app-crypt/gcr vala
+# required by media-video/cheese-3.30.0::gentoo
+# required by gnome-base/gnome-extra-apps-3.30.2::gentoo
+# required by gnome-base/gnome-3.30.2::gentoo[extras]
+# required by gnome-base/gnome (argument)
+media-libs/gst-plugins-base theora
+# required by gnome-extra/gnome-contacts-3.30.2::gentoo
+# required by gnome-base/gnome-core-apps-3.30.2::gentoo
+# required by gnome-base/gnome-3.30.2::gentoo
+# required by gnome-base/gnome (argument)
+dev-libs/folks eds
+# required by dev-libs/folks-0.11.4-r1::gentoo[eds]
+# required by gnome-extra/gnome-contacts-3.30.2::gentoo
+# required by gnome-base/gnome-core-apps-3.30.2::gentoo
+# required by gnome-base/gnome-3.30.2::gentoo
+# required by gnome-base/gnome (argument)
+gnome-extra/evolution-data-server vala
+
+
+>=net-libs/libsoup-2.64.2 vala
+app-misc/tracker -ffmpeg gstreamer
+#needed due to bug https://bugs.gentoo.org/680464
+net-libs/webkit-gtk jit
+#gnome-base/gnome-extra-apps share
+gnome-base/gnome-online-accounts vala

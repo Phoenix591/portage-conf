@@ -1,0 +1,14 @@
+x11-drivers/nvidia-drivers uvm wayland
+x11-libs/libX11 abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libvdpau abi_x86_32
+sys-libs/zlib abi_x86_32
+x11-libs/libxcb abi_x86_32
+dev-libs/libpthread-stubs abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-base/xcb-proto abi_x86_32
+dev-libs/wayland abi_x86_32
+dev-libs/expat abi_x86_32
+virtual/libffi abi_x86_32
+dev-libs/libffi abi_x86_32
